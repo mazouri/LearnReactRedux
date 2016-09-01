@@ -9,7 +9,7 @@
 5.npm install react-native-vector-icons --save
     （1）android/app/build.gradle：
         project.ext.vectoricons = [
-            iconFontNames: [ 'MaterialIcons.ttf', 'EvilIcons.ttf' ] // Name of the font files you want to copy
+            iconFontNames: [ 'MaterialIcons.ttf', 'EvilIcons.ttf', 'Entypo.ttf', 'FontAwesome.ttf', 'Foundation.ttf', 'Ionicons.ttf', 'Octions.ttf', 'Zocial.ttf'] // Name of the font files you want to copy
         ]
 
         apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
